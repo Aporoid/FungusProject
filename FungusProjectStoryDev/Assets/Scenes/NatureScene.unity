@@ -1049,6 +1049,7 @@ GameObject:
   - component: {fileID: 2006343352}
   - component: {fileID: 2006343314}
   - component: {fileID: 2006343300}
+  - component: {fileID: 2006343356}
   m_Layer: 0
   m_Name: Flowchart 2
   m_TagString: Untagged
@@ -1230,7 +1231,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &2006343300
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1543,7 +1544,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2006343314
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2399,7 +2400,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2006343352
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2419,7 +2420,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &2006343353
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2439,7 +2440,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &2006343354
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2472,6 +2473,25 @@ MonoBehaviour:
   parentBlock: {fileID: 2006343370}
   clickableObject: {fileID: 2135721630}
   waitFrames: 1
+--- !u!114 &2006343356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006343292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 97
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Hometrip
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &2006343365
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2609,6 +2629,7 @@ MonoBehaviour:
   - {fileID: 2006343367}
   - {fileID: 2006343366}
   - {fileID: 2006343365}
+  - {fileID: 2006343356}
 --- !u!1 &2024690886
 GameObject:
   m_ObjectHideFlags: 1
