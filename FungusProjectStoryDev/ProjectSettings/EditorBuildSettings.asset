@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NatureScene.unity
     guid: 3ef903e080517d444b50677fb7492536
+  - enabled: 1
+    path: Assets/Scenes/Hometrip.unity
+    guid: fc24afa1c27f04e4c91065439fe4d296
   m_configObjects: {}
